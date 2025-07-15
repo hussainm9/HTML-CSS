@@ -27,9 +27,44 @@
       The generated Lorem Ipsum is therefore always free from repetition,
       injected humour, or non-characteristic words etc.
     </p>
-    <img width="500" height="600" src="/img/pexels-thirdman-7656332.jpg" />
+    <!-- <img width="500" height="600" src="/img/pexels-thirdman-7656332.jpg" />
     <video width="400" height="400" controls autoplay>
       <source src="/mov_bbb.mp4" type="video/mp4" />
     </video>
+    <a target="_blank"  href="https://www.youtube.com/@developedbyed/videos">
+      <img src="/img/iconmonstr-youtube-6.svg" >
+    </a> -->
+    <h1>Forms</h1>
+    <form action="/contact.html" autocomplete="off">
+      <label for="user">username</label>
+      <input placeholder="username" minlength="6" maxlength="10" id="user" type="text" name="username" required >
+      <label for="email">email</label>
+      <input autocomplete="off" type="email" name="email" id="email" required>
+      <label for="products">choose a product</label>
+      <select name="products" id="products">
+        <option value="realme">Realme</option>
+        <option value="oppo">Oppo</option>
+        <option value="vivo">Vivo</option>
+        <option value="iqoo">Iqoo</option>;
+      </select>
+      <label for="message">Message</label>
+      <textarea name="message" id="message" cols="5" rows="5"></textarea>
+      <input type="radio" name="fav_sub" id="html" value="html"><label for="html">HTML</label><br>
+      <input type="radio" name="fav_sub" id="css" value="css"><label for="css">CSS</label><br>
+      <input type="radio" name="fav_sub" id="js" value="js"><label for="js">JS</label><br>
+
+      <button type="submit">Submit</button>
+      <a target="_blank" href="/contact.html">Link to another page</a>
+    </form>
+    <h1>Lists</h1>
+    <ul>
+      <li><a href="/">Mobile Phones</a> </li>
+      <ul>
+      <li>vivo</li>
+      <li>oppo</li>
+      <li>poco</li>
+      </ul>
+      
+    </ul>
   </body>
 </html>
